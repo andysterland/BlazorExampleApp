@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>9530b7b6-6424-4289-b084-944c67f94857</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/7262140c-ccfa-48c9-934d-aab7e37fa804/resourcegroups/autobot/providers/Microsoft.Insights/components/BlazorApp1</ApplicationInsightsResourceId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Extensions.AspNetCore.Configuration.Secrets" Version="1.0.0" />
+    <PackageReference Include="Azure.Identity" Version="1.2.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.14.0" />
+  </ItemGroup>
+
+</Project>
