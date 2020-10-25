@@ -1,4 +1,4 @@
 {
     "postCreateCommand": "devinit init",
-    "forwardPorts": [5000, 5001, 1433, 9000, 5500, 5501]
+    "forwardPorts": [1433, 9000, 5500, 5501]
 }
